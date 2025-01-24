@@ -1,15 +1,12 @@
-# 0x11. C - printf
+ @@ Depending of the content in the (), this functions use the simple printing or th
+_printf is a custom function designed for formatted output on the screen. It allows for formatting the output in various ways. In this project, I developed a simplified version of the printf function, implementing both basic functionality and advanced format specifiers.
 
-## Description
-`_printf is a function to do formatted printing output on the screen and it can allow formatting the output in numberous ways. In this printf project we will create a function for simple printing and the format specifications printing.
+The function behavior depends on the content within the parentheses. It handles simple printing or utilizes specifiers to modify the output format.
 
-Depending of the content in the (), this functions use the simple printing or the use or specifiers.
+For this project:
 
-In this project we made the tasks 0 and 1 of mandatory part, and the 14 advanced tasks.
-
-We used a principal function called _printf() for give the string or specifiers to other function called check_format. In this second function search wich specifier is and send it to other funtion that prints the correspondent argument.To understand it easly how it works we prepared flowchart below.
-![](_printf function flowchart.drawio.png)
-![](function check format.png)
-We used a principal function called _printf() for give the string or specifiers to other function called check_format. In this second function search wich specifier is and send it to other funtion that prints the correspondent argument.
+I completed tasks 0 and 1 from the mandatory section.
+Additionally, I implemented all 14 advanced tasks.
+The core function, _printf(), serves as the main entry point. It processes the input string and specifiers by passing them to a helper function called check_format. This helper function identifies the specifier type and delegates the task to a specific function responsible for printing the corresponding argument.
 
 ### Conversion specifiers
